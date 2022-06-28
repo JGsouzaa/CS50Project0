@@ -18,12 +18,11 @@ div.centered {
     display: flex;
     z-index: 3;
     height: 44px;
-    background: #202124;
+    background:white;
     border: 1px solid #5f6368;
     box-shadow: none;
     border-radius: 24px;
     margin: 0 auto;
-    width: 638px;
     width: auto;
     max-width: 584px;
 }
@@ -35,7 +34,8 @@ div.centered {
     padding: 5px 8px 0 14px;
 }
 
-.iblpc{    display: flex;
+.iblpc{    
+    display: flex;
     align-items: center;
     padding-right: 13px;
     margin-top: -5px;
@@ -52,20 +52,23 @@ div.centered {
     color: transparent;
     flex: 100%;
     white-space: pre;
-    height: 34px;
+    height: auto;
     font-size: 16px;
 }
 
 .gLFyf {
-    background-color: transparent;
+    background-color: black;
     border: none;
     margin: 0;
     padding: 0;
-    color: #e8eaed;
+    color: black;
     word-wrap: break-word;
     outline: none;
     display: flex;
     flex: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
     -webkit-tap-highlight-color: transparent;
     margin-top: -37px;
     height: 34px;
