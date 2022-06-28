@@ -1,0 +1,85 @@
+div.toprightsheet a{
+    color: black;
+    text-decoration: none;
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+div.center{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+div.searchbar{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background:white;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.margintextbox{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+
+.verticalcenter{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: auto;
+    font-size: 16px;
+}
+
+.textbox{
+    background-color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    word-wrap: break-word;
+    min-width: none;
+    width:545px;
+    outline: none;
+    display: flex;
+/* flex: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;*/
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    max-width: 545px;
+}
+
+div.buttons{
+    padding-top: 20px;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+div.submitbutton {
+    
+}
