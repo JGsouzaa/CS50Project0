@@ -1,14 +1,23 @@
 div.toprightsheet a{
-    color: black;
+    color: white;
     text-decoration: none;
     float: right;
     display: flex;
     align-items: center;
     padding: 6px;
+    font-family: arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 13px;
 }
 
-.container{
-
+.image{
+    padding: 20px;
 }
 
 div.center{
@@ -26,7 +35,7 @@ div.searchbar{
     display: flex;
     z-index: 3;
     height: 44px;
-    background:white;
+    background: #202124;
     border: 1px solid #5f6368;
     box-shadow: none;
     border-radius: 24px;
@@ -50,11 +59,11 @@ div.searchbar{
 }
 
 .textbox{
-    background-color: white;
+    background-color: #202124;
     border: none;
     margin: 0;
     padding: 0;
-    color: black;
+    color: white;
     word-wrap: break-word;
     min-width: none;
     width:545px;
@@ -73,8 +82,25 @@ div.searchbar{
 
 div.buttons{
     padding-top: 20px;
-    background-color:white;
-    border: 1px solid white;
+    background-color:#202124;
+    border: 1px solid #202124;
+    border-radius: 4px;
+    color: #202124;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttonlayout{
+    background-color: #303134;
+    border: 1px solid #303134;
     border-radius: 4px;
     color: #e8eaed;
     font-family: arial,sans-serif;
@@ -89,6 +115,3 @@ div.buttons{
     user-select: none;
 }
 
-div.submitbutton {
-    
-}
