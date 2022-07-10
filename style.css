@@ -115,3 +115,19 @@ div.buttons{
     user-select: none;
 }
 
+.topleftsheet{
+    top: 2px;
+    padding: 4px;
+    padding-right: 14px;
+    padding-left: 8px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    -webkit-user-select: none;
+
+}
+
+img.reducedimage{
+    max-height: 24px;
+    max-width: 27%;
+}
