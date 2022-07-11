@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style.css">
         <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/og/_/ss/k=og.qtm.7VZFpB14y7o.L.W.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/ct=zgms/rs=AA2YrTt6xKoY75JHbcPnP34rFLHtKoBqGg">
     </head>
-    <body style="background: #202124;">
+    <body style="background: #202124; font-family: arial,sans-serif;">
         <!--Up right corner links-->
         <div class="toprightsheet">
             <a href="index.html">Google Search</a>
@@ -17,24 +17,68 @@
                 <img class="reducedimage" src="img/google.png" width="272px" height="92px">
             </div>            
         </div>
-        <div class="center">
-            <!--Center bar-->
-            <form action="https://google.com/search">
+        
+        <!--Advanced search title-->
+        <div class="titleadvancedsearch">
+            <label>Advanced Search</label>
+        </div>
 
-                <div class="searchbar">
-                    <div class="margintextbox">
-                        <div class="verticalcenter">
-                            <input class="textbox" type="text" name="q">
+        <!--Line division-->
+        <div class="linedivision"></div>
+
+        <div class="advancedform">
+            <form action="https://google.com/search">
+                <div class="FPW">
+                    <span>Locale pages with...</span>
+                </div>
+
+                <div class="SO">
+                    <div class="AW">
+                        <div class="AWsub">
+                            <label>All these words: </label>
                         </div>
-                    </div>
-                </div >
-                
-                <div class="buttons">
-                    <center>
-                        <input class="buttonlayout" type="submit" value="Image Search">  
-                        <input name="tbm" value="isch" type="hidden">
-                        <!--<input type="submit" value="Feeling Lucky">-->
-                    </center>
+                    </div class="BOX">
+                        <div class="BOXsub">
+                            <input class="input" name="as_q" type="text">
+                        </div>
+                    <div>
+
+                <div class="SO">
+                    <div class="AW">
+                        <div class="AWsub">
+                            <label>This exact word or phrase: </label>
+                        </div>
+                    </div class="BOX">
+                        <div class="BOXsub">
+                            <input class="input" name="as_epq" type="text">
+                        </div>
+                    <div>
+
+
+                <div class="SO">
+                    <div class="AW">
+                        <div class="AWsub">
+                            <label>Any of these words: </label>
+                        </div>
+                    </div class="BOX">
+                        <div class="BOXsub">
+                            <input class="input" name="as_oq" type="text">
+                        </div>
+                    <div>
+
+                <div class="SO">
+                    <div class="AW">
+                        <div class="AWsub">
+                            <label>None of these words: </label>
+                        </div>
+                    </div class="BOX">
+                        <div class="BOXsub">
+                            <input class="input" name="as_eq" type="text">
+                        </div>
+                    <div>
+                 
+                <div style="padding-top: 20px">
+                    <input class="ASbutton" value="Advanced Search" type="submit"></div>        
                 </div>
             </form>
         </div>
